@@ -2,28 +2,28 @@
 class Rush < Formula
   desc "Agent execution engine for Rush agents"
   homepage "https://getrush.ai"
-  version "0.2.17"
+  version "0.2.18"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://cdn.getrush.ai/releases/rush-cli/0.2.17/rush-darwin-arm64"
-      sha256 "c35f85585dfb83a29ab7af5c5c0f80898628dd4d07606b8ba85cbeefbe938132"
+      url "https://cdn.getrush.ai/releases/rush-cli/0.2.18/rush-darwin-arm64"
+      sha256 "8238708d77990e2fc0ca783b0298a49ccd2d3676ae758cf6be4955337985c275"
     end
     on_intel do
-      url "https://cdn.getrush.ai/releases/rush-cli/0.2.17/rush-darwin-x64"
-      sha256 "ca79dafc052815fa1ca4cccf1fc165a365bedebdaa629c16f6f4a37564954cad"
+      url "https://cdn.getrush.ai/releases/rush-cli/0.2.18/rush-darwin-x64"
+      sha256 "e4d57c73b883e31fb1dd8cac95fab0ced6cf32115ec5c661c78a19b59d88735b"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://cdn.getrush.ai/releases/rush-cli/0.2.17/rush-linux-arm64"
-      sha256 "30c5bb41d3d4d45acf5733ca60e76e27cb4430f0db78c5a8f8b02fcb572504af"
+      url "https://cdn.getrush.ai/releases/rush-cli/0.2.18/rush-linux-arm64"
+      sha256 "289f3ef200e89c8cdc5dd11a57a511a88312ab5d01f3a579c11761e87d828380"
     end
     on_intel do
-      url "https://cdn.getrush.ai/releases/rush-cli/0.2.17/rush-linux-x64"
-      sha256 "cc592185a6cb05f34a4cd629d8f00e57086d9fa4e5f2065ef069678bf88389d7"
+      url "https://cdn.getrush.ai/releases/rush-cli/0.2.18/rush-linux-x64"
+      sha256 "12b0fcb4a22a9ebe2642b1cab50e839fbbe40e120b0755aa54dd58b3000fc020"
     end
   end
 
