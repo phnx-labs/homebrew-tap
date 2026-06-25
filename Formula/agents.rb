@@ -1,8 +1,8 @@
 class Agents < Formula
   desc "One CLI for every coding agent — Claude Code, Codex, Gemini, Cursor, and more"
   homepage "https://agents-cli.sh"
-  url "https://registry.npmjs.org/@phnx-labs/agents-cli/-/agents-cli-1.20.18.tgz"
-  sha256 "c97f45a56984cc2fe3bfed7330ae65dc6f776eb4f0200838cf5ca7da3fd09450"
+  url "https://registry.npmjs.org/@phnx-labs/agents-cli/-/agents-cli-1.20.19.tgz"
+  sha256 "a002e5b8f245f92c7a9f1a9f343e9b9c2088a7c3f141a0992723ffd0af658654"
   license "MIT"
 
   depends_on "node"
